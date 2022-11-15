@@ -1,0 +1,13 @@
+{
+    "heading": "Todolist",
+    "tasks": [
+        {
+            "task": "Task 1",
+            "done": true
+        },
+        {
+            "task": "Task",
+            "done": false
+        }
+    ]
+} 
