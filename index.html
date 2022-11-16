@@ -1,11 +1,20 @@
 <html>
   <head>
     <script src="script.js"></script>
+    <script src="bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="darkly/bootstrap.min.css" />
+    <link rel="stylesheet" href="darkly/_bootswatch.scss" />
+    <link rel="stylesheet" href="darkly/_variables.scss" />
   </head>
   <body onload="onload()">
-
     <h1 id="header"></h1>
-
-    <div id="content"></div>
-</body>
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="bs-component">
+          <div class="accordion" id="accordion"></div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>

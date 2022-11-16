@@ -1,13 +1,19 @@
 {
-    "heading": "Todolist",
-    "tasks": [
-        {
-            "task": "Task 1",
-            "done": true
-        },
-        {
-            "task": "Task",
-            "done": false
-        }
-    ]
-} 
+  "heading": "Todolist",
+  "message": {
+    "task_completed": "Completed",
+    "task_not_completed": "Not completed"
+  },
+  "tasks": [
+    {
+      "task": "Task 1",
+      "description": "Here goes the task description",
+      "done": true
+    },
+    {
+      "task": "Task 2",
+      "description": "Here goes the task description 2",
+      "done": false
+    }
+  ]
+}
