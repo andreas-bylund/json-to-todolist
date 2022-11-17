@@ -16,13 +16,13 @@ function printData() {
 
   for (const task of json_data.tasks) {
     const accordion_item = document.createElement("div");
-    accordion_item.className = "accordion-item justify-content-md-end";
+    accordion_item.className = "accordion-item";
 
     const h2_heading = document.createElement("h2");
     h2_heading.className = "accordion-header";
 
     const button = document.createElement("button");
-    button.className = "accordion-button collapsed me-md-2";
+    button.className = "accordion-button collapsed";
     button.setAttribute("type", "button");
     button.setAttribute("data-bs-toggle", "collapse");
     button.setAttribute("data-bs-target", "#collapseOne_" + counter);
