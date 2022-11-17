@@ -1,0 +1,14 @@
+{
+    "settings_files": [
+        {
+            "name": "Settings file nr 1",
+            "file_name": "settings/mock-settings1.json",
+            "id": "setting1"
+        },
+        {
+            "name": "Settings file nr 2",
+            "file_name": "settings/mock-settings2.json",
+            "id": "setting2"
+        }
+    ]
+}

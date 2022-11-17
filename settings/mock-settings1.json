@@ -1,0 +1,20 @@
+{
+    "heading": "Mock settings 1",
+    "message": {
+      "task_completed": "Completed",
+      "task_not_completed": "Not completed"
+    },
+    "tasks": [
+      {
+        "task": "Task 1 - settings 1",
+        "description": "Here goes the task description",
+        "done": true
+      },
+      {
+        "task": "Task 2 - settings 1",
+        "description": "Here goes the task description 2",
+        "done": false
+      }
+    ]
+  }
+  
