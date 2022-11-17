@@ -1,20 +1,19 @@
 {
-    "heading": "Mock settings 2",
-    "message": {
-      "task_completed": "Completed",
-      "task_not_completed": "Not completed"
+  "heading": "Mock settings 2",
+  "message": {
+    "task_completed": "Completed",
+    "task_not_completed": "Not completed"
+  },
+  "tasks": [
+    {
+      "task": "Task 1 - settings 2",
+      "description": "Here goes the task description",
+      "done": true
     },
-    "tasks": [
-      {
-        "task": "Task 1 - settings 2",
-        "description": "Here goes the task description",
-        "done": true
-      },
-      {
-        "task": "Task 2 - settings 2",
-        "description": "Here goes the task description 2",
-        "done": false
-      }
-    ]
-  }
-  
+    {
+      "task": "Task 2 - settings 2",
+      "description": "Here goes the task description 2",
+      "done": false
+    }
+  ]
+}
